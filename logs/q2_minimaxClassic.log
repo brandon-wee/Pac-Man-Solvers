@@ -1,0 +1,57 @@
+2024-09-02 16:54:40,643 - root - INFO - Logger Version: 2.0.0
+2024-09-02 16:54:40,643 - main - INFO - input_args: dict_items([('layout', './layouts\\q2_minimaxClassic.lay'), ('pacman', <Q2_Agent.Q2_Agent object at 0x000001B5501827E0>), ('ghosts', [<RandomGhost.RandomGhost object at 0x000001B5501A10A0>, <RandomGhost.RandomGhost object at 0x000001B5501A1F40>, <RandomGhost.RandomGhost object at 0x000001B5501A1E50>, <RandomGhost.RandomGhost object at 0x000001B5501A1F70>]), ('display', <textDisplay.NullGraphics object at 0x000001B5501A2000>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 30), ('outfile', 'q2_minimaxClassic')])
+2024-09-02 16:54:40,646 - root - INFO - runGames
+2024-09-02 16:54:40,646 - root - INFO - 0/1
+2024-09-02 16:54:40,647 - root - INFO - newGame
+2024-09-02 16:54:40,647 - root - INFO - layout: %%%%%%%%%
+%.P    G%
+% %.% %%%
+%G    %%%
+%%%%%%%%%
+2024-09-02 16:54:40,647 - root - INFO - runGame
+2024-09-02 16:54:40,647 - root - INFO - #agents:3
+2024-09-02 16:54:40,647 - root - INFO - #pacman:1
+2024-09-02 16:54:40,647 - root - INFO - #ghosts:2
+2024-09-02 16:54:40,647 - root - INFO - MinimaxAgent
+2024-09-02 16:54:40,648 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+%.<    G%
+% %.% %%%
+%G    %%%
+%%%%%%%%%
+Score: 0
+,
+2024-09-02 16:54:40,648 - getAction - INFO - O: West
+2024-09-02 16:54:40,649 - root - INFO - MinimaxAgent
+2024-09-02 16:54:40,649 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+%>    G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: 9
+,
+2024-09-02 16:54:40,649 - getAction - INFO - O: East
+2024-09-02 16:54:40,649 - root - INFO - MinimaxAgent
+2024-09-02 16:54:40,650 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+%G<  G  %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,
+2024-09-02 16:54:40,650 - getAction - INFO - O: East
+2024-09-02 16:54:40,650 - root - INFO - MinimaxAgent
+2024-09-02 16:54:40,651 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+% G<G   %
+% %.% %%%
+%     %%%
+%%%%%%%%%
+Score: 7
+,
+2024-09-02 16:54:40,651 - getAction - INFO - O: South
+2024-09-02 16:54:40,651 - root - INFO - Remaining Food: 0
+2024-09-02 16:54:40,651 - root - INFO - moveHistory: [[(0, 'West'), (1, 'North'), (2, 'West'), (0, 'East'), (1, 'North'), (2, 'West'), (0, 'East'), (1, 'East'), (2, 'West'), (0, 'South')]]
+2024-09-02 16:54:40,651 - root - INFO - pathLength: [10]
+2024-09-02 16:54:40,651 - root - INFO - Average Score: 516.00
+2024-09-02 16:54:40,651 - root - INFO - Scores: 516.0
+2024-09-02 16:54:40,651 - root - INFO - Win Rate:      1/1 (1.00)
+2024-09-02 16:54:40,651 - root - INFO - Record:       Win
