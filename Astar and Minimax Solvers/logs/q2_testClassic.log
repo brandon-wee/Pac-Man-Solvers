@@ -1,0 +1,782 @@
+2024-09-02 16:55:24,298 - root - INFO - Logger Version: 2.0.0
+2024-09-02 16:55:24,298 - main - INFO - input_args: dict_items([('layout', './layouts\\q2_testClassic.lay'), ('pacman', <Q2_Agent.Q2_Agent object at 0x000001CF2CC3D280>), ('ghosts', [<RandomGhost.RandomGhost object at 0x000001CF2E931070>, <RandomGhost.RandomGhost object at 0x000001CF2E931F10>, <RandomGhost.RandomGhost object at 0x000001CF2E931E20>, <RandomGhost.RandomGhost object at 0x000001CF2E931F40>]), ('display', <textDisplay.NullGraphics object at 0x000001CF2E931FD0>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 30), ('outfile', 'q2_testClassic')])
+2024-09-02 16:55:24,300 - root - INFO - runGames
+2024-09-02 16:55:24,300 - root - INFO - 0/1
+2024-09-02 16:55:24,300 - root - INFO - newGame
+2024-09-02 16:55:24,300 - root - INFO - layout: %%%%%
+% . %
+%.G.%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+%P .%
+%%%%%
+2024-09-02 16:55:24,301 - root - INFO - runGame
+2024-09-02 16:55:24,301 - root - INFO - #agents:2
+2024-09-02 16:55:24,301 - root - INFO - #pacman:1
+2024-09-02 16:55:24,301 - root - INFO - #ghosts:1
+2024-09-02 16:55:24,301 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,302 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%.G.%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+%< .%
+%%%%%
+Score: 0
+,
+2024-09-02 16:55:24,302 - getAction - INFO - O: North
+2024-09-02 16:55:24,302 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,303 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% G %
+%. .%
+%   %
+%  .%
+%v  %
+%  .%
+%%%%%
+Score: -1
+,
+2024-09-02 16:55:24,303 - getAction - INFO - O: North
+2024-09-02 16:55:24,303 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,305 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%.G.%
+%   %
+%v .%
+%   %
+%  .%
+%%%%%
+Score: -2
+,
+2024-09-02 16:55:24,305 - getAction - INFO - O: North
+2024-09-02 16:55:24,305 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,306 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%G .%
+%v  %
+%  .%
+%   %
+%  .%
+%%%%%
+Score: -3
+,
+2024-09-02 16:55:24,306 - getAction - INFO - O: South
+2024-09-02 16:55:24,306 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,307 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%G  %
+%^ .%
+%   %
+%  .%
+%%%%%
+Score: -4
+,
+2024-09-02 16:55:24,307 - getAction - INFO - O: South
+2024-09-02 16:55:24,307 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,308 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%G .%
+%^  %
+%  .%
+%%%%%
+Score: -5
+,
+2024-09-02 16:55:24,308 - getAction - INFO - O: South
+2024-09-02 16:55:24,308 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,309 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%  .%
+%G  %
+%^ .%
+%%%%%
+Score: -6
+,
+2024-09-02 16:55:24,309 - getAction - INFO - O: East
+2024-09-02 16:55:24,309 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,310 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+%G<.%
+%%%%%
+Score: -7
+,
+2024-09-02 16:55:24,310 - getAction - INFO - O: East
+2024-09-02 16:55:24,310 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,310 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+% G<%
+%%%%%
+Score: 2
+,
+2024-09-02 16:55:24,310 - getAction - INFO - O: North
+2024-09-02 16:55:24,311 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,311 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%  .%
+% Gv%
+%   %
+%%%%%
+Score: 1
+,
+2024-09-02 16:55:24,311 - getAction - INFO - O: North
+2024-09-02 16:55:24,311 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,312 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%  v%
+%  G%
+%   %
+%%%%%
+Score: 10
+,
+2024-09-02 16:55:24,312 - getAction - INFO - O: North
+2024-09-02 16:55:24,312 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,313 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%  v%
+%   %
+%   %
+%  G%
+%%%%%
+Score: 9
+,
+2024-09-02 16:55:24,313 - getAction - INFO - O: North
+2024-09-02 16:55:24,313 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,315 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. v%
+%   %
+%   %
+%   %
+% G %
+%%%%%
+Score: 18
+,
+2024-09-02 16:55:24,315 - getAction - INFO - O: North
+2024-09-02 16:55:24,315 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,315 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% .v%
+%.  %
+%   %
+%   %
+% G %
+%   %
+%%%%%
+Score: 17
+,
+2024-09-02 16:55:24,315 - getAction - INFO - O: North
+2024-09-02 16:55:24,316 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,317 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. v%
+% . %
+%.  %
+%   %
+%   %
+%G  %
+%   %
+%%%%%
+Score: 26
+,
+2024-09-02 16:55:24,317 - getAction - INFO - O: North
+2024-09-02 16:55:24,317 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,317 - getAction - INFO - I: Q2_Agent,%%%%%
+% .v%
+%.  %
+% . %
+%.  %
+%   %
+%G  %
+%   %
+%   %
+%%%%%
+Score: 25
+,
+2024-09-02 16:55:24,317 - getAction - INFO - O: West
+2024-09-02 16:55:24,317 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,318 - getAction - INFO - I: Q2_Agent,%%%%%
+% > %
+%.  %
+% . %
+%.  %
+%   %
+% G %
+%   %
+%   %
+%%%%%
+Score: 34
+,
+2024-09-02 16:55:24,318 - getAction - INFO - O: South
+2024-09-02 16:55:24,318 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,320 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%.^ %
+% . %
+%.  %
+%   %
+%   %
+% G %
+%   %
+%%%%%
+Score: 33
+,
+2024-09-02 16:55:24,320 - getAction - INFO - O: South
+2024-09-02 16:55:24,320 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,321 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%.  %
+% ^ %
+%.  %
+%   %
+%   %
+%  G%
+%   %
+%%%%%
+Score: 42
+,
+2024-09-02 16:55:24,321 - getAction - INFO - O: North
+2024-09-02 16:55:24,321 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,321 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%.v %
+%   %
+%.  %
+%   %
+%  G%
+%   %
+%   %
+%%%%%
+Score: 41
+,
+2024-09-02 16:55:24,322 - getAction - INFO - O: West
+2024-09-02 16:55:24,322 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,322 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%>  %
+%   %
+%.  %
+%   %
+% G %
+%   %
+%   %
+%%%%%
+Score: 50
+,
+2024-09-02 16:55:24,322 - getAction - INFO - O: North
+2024-09-02 16:55:24,323 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,323 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%.  %
+%   %
+%   %
+% G %
+%   %
+%%%%%
+Score: 49
+,
+2024-09-02 16:55:24,323 - getAction - INFO - O: South
+2024-09-02 16:55:24,323 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,323 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%.  %
+%   %
+%   %
+%  G%
+%   %
+%%%%%
+Score: 48
+,
+2024-09-02 16:55:24,323 - getAction - INFO - O: North
+2024-09-02 16:55:24,325 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,325 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%.  %
+%   %
+%   %
+%   %
+%  G%
+%%%%%
+Score: 47
+,
+2024-09-02 16:55:24,325 - getAction - INFO - O: South
+2024-09-02 16:55:24,325 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,326 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%.  %
+%   %
+%   %
+%   %
+% G %
+%%%%%
+Score: 46
+,
+2024-09-02 16:55:24,326 - getAction - INFO - O: North
+2024-09-02 16:55:24,326 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,326 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%.  %
+%   %
+%   %
+% G %
+%   %
+%%%%%
+Score: 45
+,
+2024-09-02 16:55:24,326 - getAction - INFO - O: South
+2024-09-02 16:55:24,327 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,327 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%.  %
+%   %
+%   %
+%  G%
+%   %
+%%%%%
+Score: 44
+,
+2024-09-02 16:55:24,327 - getAction - INFO - O: North
+2024-09-02 16:55:24,327 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,328 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%.  %
+%   %
+%   %
+%   %
+%  G%
+%%%%%
+Score: 43
+,
+2024-09-02 16:55:24,328 - getAction - INFO - O: South
+2024-09-02 16:55:24,328 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,329 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%.  %
+%   %
+%   %
+%   %
+% G %
+%%%%%
+Score: 42
+,
+2024-09-02 16:55:24,329 - getAction - INFO - O: North
+2024-09-02 16:55:24,329 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,329 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%.  %
+%   %
+%   %
+%   %
+%G  %
+%%%%%
+Score: 41
+,
+2024-09-02 16:55:24,329 - getAction - INFO - O: South
+2024-09-02 16:55:24,330 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,330 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%.  %
+%   %
+%   %
+%G  %
+%   %
+%%%%%
+Score: 40
+,
+2024-09-02 16:55:24,330 - getAction - INFO - O: North
+2024-09-02 16:55:24,330 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,331 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%.  %
+%   %
+%G  %
+%   %
+%   %
+%%%%%
+Score: 39
+,
+2024-09-02 16:55:24,331 - getAction - INFO - O: South
+2024-09-02 16:55:24,331 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,332 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%.  %
+%   %
+% G %
+%   %
+%   %
+%%%%%
+Score: 38
+,
+2024-09-02 16:55:24,332 - getAction - INFO - O: North
+2024-09-02 16:55:24,332 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,332 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%.  %
+%   %
+%   %
+% G %
+%   %
+%%%%%
+Score: 37
+,
+2024-09-02 16:55:24,332 - getAction - INFO - O: South
+2024-09-02 16:55:24,333 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,333 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%.  %
+%   %
+%   %
+%G  %
+%   %
+%%%%%
+Score: 36
+,
+2024-09-02 16:55:24,333 - getAction - INFO - O: North
+2024-09-02 16:55:24,333 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,333 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%.  %
+%   %
+%   %
+%   %
+%G  %
+%%%%%
+Score: 35
+,
+2024-09-02 16:55:24,333 - getAction - INFO - O: South
+2024-09-02 16:55:24,333 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,335 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%.  %
+%   %
+%   %
+%   %
+% G %
+%%%%%
+Score: 34
+,
+2024-09-02 16:55:24,335 - getAction - INFO - O: North
+2024-09-02 16:55:24,335 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,335 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%.  %
+%   %
+%   %
+% G %
+%   %
+%%%%%
+Score: 33
+,
+2024-09-02 16:55:24,336 - getAction - INFO - O: South
+2024-09-02 16:55:24,336 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,336 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%.  %
+%   %
+%   %
+%  G%
+%   %
+%%%%%
+Score: 32
+,
+2024-09-02 16:55:24,336 - getAction - INFO - O: North
+2024-09-02 16:55:24,337 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,337 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%.  %
+%   %
+%   %
+%   %
+%  G%
+%%%%%
+Score: 31
+,
+2024-09-02 16:55:24,337 - getAction - INFO - O: South
+2024-09-02 16:55:24,338 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,338 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%.  %
+%   %
+%   %
+%   %
+% G %
+%%%%%
+Score: 30
+,
+2024-09-02 16:55:24,338 - getAction - INFO - O: North
+2024-09-02 16:55:24,338 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,339 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%.  %
+%   %
+%   %
+% G %
+%   %
+%%%%%
+Score: 29
+,
+2024-09-02 16:55:24,339 - getAction - INFO - O: South
+2024-09-02 16:55:24,339 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,340 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%.  %
+%   %
+%   %
+%G  %
+%   %
+%%%%%
+Score: 28
+,
+2024-09-02 16:55:24,340 - getAction - INFO - O: North
+2024-09-02 16:55:24,340 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,341 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%.  %
+%   %
+%G  %
+%   %
+%   %
+%%%%%
+Score: 27
+,
+2024-09-02 16:55:24,341 - getAction - INFO - O: South
+2024-09-02 16:55:24,341 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,342 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%.  %
+%G  %
+%   %
+%   %
+%   %
+%%%%%
+Score: 26
+,
+2024-09-02 16:55:24,342 - getAction - INFO - O: North
+2024-09-02 16:55:24,342 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,342 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%.  %
+% G %
+%   %
+%   %
+%   %
+%%%%%
+Score: 25
+,
+2024-09-02 16:55:24,342 - getAction - INFO - O: South
+2024-09-02 16:55:24,343 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,343 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%.G %
+%   %
+%   %
+%   %
+%   %
+%%%%%
+Score: 24
+,
+2024-09-02 16:55:24,343 - getAction - INFO - O: North
+2024-09-02 16:55:24,343 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,343 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%   %
+%   %
+%. G%
+%   %
+%   %
+%   %
+%   %
+%%%%%
+Score: 23
+,
+2024-09-02 16:55:24,343 - getAction - INFO - O: South
+2024-09-02 16:55:24,344 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,344 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%  G%
+%.  %
+%   %
+%   %
+%   %
+%   %
+%%%%%
+Score: 22
+,
+2024-09-02 16:55:24,344 - getAction - INFO - O: North
+2024-09-02 16:55:24,344 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,345 - getAction - INFO - I: Q2_Agent,%%%%%
+%v  %
+%  G%
+%   %
+%.  %
+%   %
+%   %
+%   %
+%   %
+%%%%%
+Score: 21
+,
+2024-09-02 16:55:24,345 - getAction - INFO - O: South
+2024-09-02 16:55:24,346 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,346 - getAction - INFO - I: Q2_Agent,%%%%%
+%  G%
+%^  %
+%   %
+%.  %
+%   %
+%   %
+%   %
+%   %
+%%%%%
+Score: 20
+,
+2024-09-02 16:55:24,346 - getAction - INFO - O: North
+2024-09-02 16:55:24,346 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,347 - getAction - INFO - I: Q2_Agent,%%%%%
+%vG %
+%   %
+%   %
+%.  %
+%   %
+%   %
+%   %
+%   %
+%%%%%
+Score: 19
+,
+2024-09-02 16:55:24,347 - getAction - INFO - O: South
+2024-09-02 16:55:24,347 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,347 - getAction - INFO - I: Q2_Agent,%%%%%
+%G  %
+%^  %
+%   %
+%.  %
+%   %
+%   %
+%   %
+%   %
+%%%%%
+Score: 18
+,
+2024-09-02 16:55:24,348 - getAction - INFO - O: South
+2024-09-02 16:55:24,348 - root - INFO - MinimaxAgent
+2024-09-02 16:55:24,348 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%G  %
+%^  %
+%.  %
+%   %
+%   %
+%   %
+%   %
+%%%%%
+Score: 17
+,
+2024-09-02 16:55:24,348 - getAction - INFO - O: South
+2024-09-02 16:55:24,348 - root - INFO - Remaining Food: 0
+2024-09-02 16:55:24,349 - root - INFO - moveHistory: [[(0, 'North'), (1, 'South'), (0, 'North'), (1, 'South'), (0, 'North'), (1, 'West'), (0, 'South'), (1, 'South'), (0, 'South'), (1, 'South'), (0, 'South'), (1, 'South'), (0, 'East'), (1, 'South'), (0, 'East'), (1, 'East'), (0, 'North'), (1, 'North'), (0, 'North'), (1, 'East'), (0, 'North'), (1, 'South'), (0, 'North'), (1, 'West'), (0, 'North'), (1, 'North'), (0, 'North'), (1, 'West'), (0, 'North'), (1, 'North'), (0, 'West'), (1, 'East'), (0, 'South'), (1, 'South'), (0, 'South'), (1, 'East'), (0, 'North'), (1, 'North'), (0, 'West'), (1, 'West'), (0, 'North'), (1, 'South'), (0, 'South'), (1, 'East'), (0, 'North'), (1, 'South'), (0, 'South'), (1, 'West'), (0, 'North'), (1, 'North'), (0, 'South'), (1, 'East'), (0, 'North'), (1, 'South'), (0, 'South'), (1, 'West'), (0, 'North'), (1, 'West'), (0, 'South'), (1, 'North'), (0, 'North'), (1, 'North'), (0, 'South'), (1, 'East'), (0, 'North'), (1, 'South'), (0, 'South'), (1, 'West'), (0, 'North'), (1, 'South'), (0, 'South'), (1, 'East'), (0, 'North'), (1, 'North'), (0, 'South'), (1, 'East'), (0, 'North'), (1, 'South'), (0, 'South'), (1, 'West'), (0, 'North'), (1, 'North'), (0, 'South'), (1, 'West'), (0, 'North'), (1, 'North'), (0, 'South'), (1, 'North'), (0, 'North'), (1, 'East'), (0, 'South'), (1, 'North'), (0, 'North'), (1, 'East'), (0, 'South'), (1, 'North'), (0, 'North'), (1, 'North'), (0, 'South'), (1, 'North'), (0, 'North'), (1, 'West'), (0, 'South'), (1, 'West'), (0, 'South'), (1, 'South'), (0, 'South')]]
+2024-09-02 16:55:24,349 - root - INFO - pathLength: [107]
+2024-09-02 16:55:24,349 - root - INFO - Average Score: 526.00
+2024-09-02 16:55:24,349 - root - INFO - Scores: 526.0
+2024-09-02 16:55:24,349 - root - INFO - Win Rate:      1/1 (1.00)
+2024-09-02 16:55:24,349 - root - INFO - Record:       Win
